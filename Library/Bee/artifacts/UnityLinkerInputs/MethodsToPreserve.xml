@@ -1,0 +1,79 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="CameraSystem">
+			<method name="ResetCameraRotation"/>
+		</type>
+		<type fullname="Constructor">
+			<method name="LoadGrid"/>
+			<method name="Redo"/>
+			<method name="SaveGrid"/>
+			<method name="Undo"/>
+		</type>
+		<type fullname="ConstructorUI">
+			<method name="CheckFilters"/>
+			<method name="CheckFilters"/>
+			<method name="CheckFilters"/>
+			<method name="CheckFilters"/>
+			<method name="CheckFilters"/>
+			<method name="RotatePreview"/>
+			<method name="ToggleMirroring"/>
+			<method name="ToggleShowGridObjectsLayout"/>
+			<method name="ToggleShowGridObjectsLayout"/>
+			<method name="ToggleStampReplacingCell"/>
+		</type>
+		<type fullname="DecorationsAdditionalPreview">
+			<method name="ButtonRotateDecoration"/>
+			<method name="ButtonRotateDecoration"/>
+			<method name="ButtonRotateDecoration"/>
+			<method name="ButtonRotateDecoration"/>
+			<method name="ButtonRotateDecoration"/>
+			<method name="ButtonRotateDecoration"/>
+			<method name="ButtonRotateDecoration"/>
+			<method name="ToggleSetDecoration"/>
+			<method name="ToggleSetDecoration"/>
+			<method name="ToggleSetDecoration"/>
+			<method name="ToggleSetDecoration"/>
+			<method name="ToggleSetDecoration"/>
+			<method name="ToggleSetDecoration"/>
+			<method name="ToggleSetDecoration"/>
+		</type>
+		<type fullname="HelpManual">
+			<method name="ToogleShow"/>
+		</type>
+		<type fullname="SelectedToolButton">
+			<method name="ToggleToolsPanel"/>
+		</type>
+		<type fullname="ToolButton">
+			<method name="Click"/>
+			<method name="Click"/>
+			<method name="Click"/>
+			<method name="Click"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton">
+			<method name="OnAction"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField">
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel">
+			<method name="OnScrollbarClicked"/>
+			<method name="OnScrollbarClicked"/>
+			<method name="ResetDebugManager"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+</linker>
